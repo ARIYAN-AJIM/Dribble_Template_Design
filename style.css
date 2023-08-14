@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.top{
+    height: 55%;
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/3385234/pexels-photo-3385234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+}
+
+.top .nav{
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 3vw;
+    gap: 1vw;
+    background-color: #FFFFFF;
+}
+
+.top .nav .dot{
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+}
+
+.top .nav .dot:nth-child(1){
+    background-color: #FF3800;
+}
+
+.hero-text{
+    height: 100%;
+    width: 100%;
+    padding: 6vw 5vw;
+}
+
+
+.imtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imtop .imleft{
+    display: flex;
+    align-items: center;
+    gap: 1.4vw;
+}
+
+.imtop .imleft span{
+    height: 3.4vw;
+    width: 3.4vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #FF3800;
+}
+
+.imtop .imleft h3{
+    font-weight:300;
+}
+
+
+
+.imtop .imright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4vw;
+}
+
+.imright .search{
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1).3s;
+    background-color: #FFFFFF;
+}
+
+
+
+.imright .search i{
+    color: #000;
+    font-weight: 400;
+    font-size: 1.4vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1).3s;
+}
+
+
+.imright .menu{
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1).3s;
+    background-color: #FFFFFF;
+}
+
+
+
+.imright .menu i{
+    font-size: 1.5vw;
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+.middle{
+    padding-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.middle .m-left{
+    width: 55%;
+    padding-right:3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle .m-left h1{
+    font-size: 7vw;
+    font-weight: 400;
+}
+
+.middle .m-left .min-txt{
+    width: 20%;
+}
+
+.min-txt h4{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.min-txt p{
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.middle .m-right{
+    width: 40%;
+    padding-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.txt h4{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.txt p{
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.middle .icon{
+    display: flex;
+    align-items: center;
+    gap: 1.4vw;
+}
+
+.middle .icon i{
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+
+.bottom{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightsteelblue;
+}
+
+
+.bottom .div1{
+    display: flex;
+    justify-content: center;
+    padding-top: 4vw;
+    width: 20%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.bottom .div1 h5{
+    color: #000;
+    opacity: .6;
+}
+
+.bottom .div1 h5:nth-child(2){
+    padding-top: 2vw;
+    opacity: .8;
+}
+
+.bottom .div2{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(3, 192, 255);
+}
+
+.bottom .div2 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom .div3{
+    width: 20%;
+    height: 100%;
+    background-color: lightgreen;
+}
+
+.bottom .div3 .btext{
+    width: 100%;
+    height: 50%;
+    padding: 15%;
+    background-color: #FF3800;
+}
+
+.bottom .div3 .btext h5{
+    font-weight: 300;
+    opacity: .8;
+}
+
+.bottom .div3 .btext h5:nth-child(1){
+    padding-bottom: 1.3vw;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.bottom .div3 .imgs{
+    width: 100%;
+    height: 50%;
+}
+
+.bottom .div3 .imgs img{
+    width: 100%;
+    height: 100%;
+}
+
+.bottom .div4{
+    width: 30%;
+    height: 100%;
+    background-color: #1F1F1F;
+    padding: 3vw;
+}
+
+.bottom .div4 h5{
+    font-weight: 400;
+    font-size: 1.2vw;
+    opacity: .7;
+}
+
+.t-card{
+    display: flex;
+    padding-top: 3vw;
+    gap: 1.5vw;
+}
+
+.t-card .igs{
+    width: 4.2vw;
+    height: 4.2vw;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.t-card .igs img{
+    width: 100%;
+    height: 100%;
+}
+
+.t-card .txx p{
+    font-size: 1vw;
+    font-weight: 300;
+    opacity: .5;
+}
+
+.t-card h6{
+    padding-top: .4vw;
+    opacity: .3;
+    font-weight: 300;
+}
+
+
+@media (max-width:600px) {
+    .main{
+        min-height: 100vh;
+        overflow: visible;
+    }
+    .imtop{
+        justify-content: space-around;
+    }
+    .middle .m-left h1{
+        text-align: start;
+    }
+    .min-txt h4 {
+        font-size: 2.3vw;
+        font-weight: 400;
+        padding-bottom: .5vw;
+        padding-left: 7vw;
+    }
+    .min-txt p {
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+    .middle .m-left {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .middle{
+        flex-direction: column;
+    }
+    .middle .m-right {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .middle .m-left .min-txt{
+        width: 40%;
+    }
+    .min-txt p {
+        font-size: 1.5vw;
+        font-weight: 300;
+        margin-left: 7vw;
+    }
+    .middle .icon {
+        display: flex;
+        align-items: center;
+        gap: 2.5vw;
+        width: 34%;
+    }
+    .middle .icon i {
+        font-size: 2.2vw;
+        cursor: pointer;
+    }
+    .txt h4 {
+        font-size: 2.3vw;
+        font-weight: 400;
+    }
+    .txt p {
+        font-size: 1.7vw;
+        font-weight: 300;
+    }
+    .bottom{
+        min-height: 20vh;
+        flex-direction: column;
+    }
+    .bottom .div1{
+        width: 100%;
+    }
+    .bottom .div2{
+        width: 100%;
+    }
+    .bottom .div3{
+        width: 100%;
+    }
+    .bottom .div4{
+        width: 100%;
+    }
+}
